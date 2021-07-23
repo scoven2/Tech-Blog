@@ -1,7 +1,34 @@
 # Tech-Blog
 
+## Description
+
+## Table of Contents
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Technologies](#technologies)
+* [License](#license)
+
+
+## Installation
+
+* `npm init -y`
+* `npm install` 
+
+## Usage
+
+In terminal run 
+* `mysql -u root -p`
+
+Enter your MySQL password. Then run:
+* `source db/schema.sql`
+* `quit`
+* `npm run seed` 
+* `npm start`
+
 ## Technologies
-This application was made using
+
+This application was made using:
 
 ![Javascript](https://img.shields.io/badge/-JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
 
@@ -13,7 +40,7 @@ This application was made using
 
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) 
 
-with the following npm packages
+With the following npm packages:
 * `express.js` 
 * `dotenv`
 * `Sequelize`
@@ -21,3 +48,14 @@ with the following npm packages
 * `express-handlebars` 
 * `express-session`
 * `connect-session-sequelize`
+
+## License
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
