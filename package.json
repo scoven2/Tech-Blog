@@ -1,5 +1,5 @@
 {
-    "name": "Tech-Blog",
+    "name": "tech-blog",
     "version": "1.0.0",
     "description": "* [Installation](#installation)\r * [Usage](#usage)\r * [Technologies](#technologies)\r * [License](#license)",
     "main": "index.js",
