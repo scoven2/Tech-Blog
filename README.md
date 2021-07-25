@@ -3,6 +3,8 @@
 ## Description
 A blog that allows people to create accounts and create different posts. The posts have a title as well as text, and other users are able to comment on the current posts. Users are also able to edit post and comments, as well as delete them entirely.
 
+[Live Heroku App](https://scott-siegel-tech-blog.herokuapp.com/)
+
 ## Table of Contents
 
 * [Installation](#installation)
