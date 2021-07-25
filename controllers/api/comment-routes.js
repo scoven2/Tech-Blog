@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/:id', (req, res) => {
-    Comment.findOne({
+    Comment.findAll({
             where: {
                 id: req.params.id,
             },
@@ -35,18 +35,18 @@ router.post('/', withAuth, (req, res) => {
             .then(dbCommentData => res.json(dbCommentData))
             .catch(err => {
                 console.log(err);
-                res.status(500).json(err);
+                res.status(400).json(err);
             })
     }
 });
 
 router.put('/:id', withAuth, (req, res) => {
     Comment.update({
-            comment_text: req.body.comment_text,
+            comment_text: req.body.comment_text
         }, {
             where: {
-                id: req.params.id,
-            },
+                id: req.params.id
+            }
         })
         .then((dbCommentData) => {
             if (!dbCommentData) {
@@ -55,7 +55,7 @@ router.put('/:id', withAuth, (req, res) => {
             }
             res.json(dbCommentData);
         })
-        .catch((err) => {
+        .catch(err => {
             console.log(err);
             res.status(500).json(err);
         });

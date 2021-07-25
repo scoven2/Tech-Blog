@@ -19,5 +19,9 @@ const postData = [{
         title: "Why Apple won't ever implement USB-C: They suck.",
         content: "Apple won't ever jump on the USB-C wagon because they would need to admit the rest of the world has a better option. They would also lose a large revenue stream by forcing people to buy their ancillary products. Sure their phones are nice, but lightning port isn't.",
         user_id: 4
-    },
+    }
 ]
+
+const seedPosts = () => Post.bulkCreate(postData);
+
+module.exports = seedPosts;

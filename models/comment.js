@@ -38,4 +38,4 @@ Comment.init({
     modelName: 'comment'
 });
 
-moddule.exports = Comment;
+module.exports = Comment;
