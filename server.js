@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3001;
 
 const hbs = exphbs.create({ helpers });
 const sess = {
-    secret: 'supa dupa secret',
+    secret: 'Mary goes robblin with marigold goblins',
     cookie: { maxAge: null },
     resave: false,
     saveUninitialized: true,
